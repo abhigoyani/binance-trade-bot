@@ -9,3 +9,6 @@ flask-socketio==5.0.1
 eventlet==0.30.2
 python-socketio[client]==5.0.4
 cachetools==4.2.1
+autobahn>=20.12.3 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.4.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
